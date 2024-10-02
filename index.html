@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Art By Mwayie Snooker - Professional Photographer in Malawi">
+    <meta name="keywords" content="Art By Mwayie Snooker, Professional Photographer, Photography In Malawi">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="icon.png" rel="icon" type="image/x-icon">
+    <title>Art_By_Mwayie_Snooker - Photography Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title></title>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="burger-icon" onclick="toggleNavbar()">☰</div>
+
+        <ul>
+
+            <li class="home-link"><a href="#hero">Home</a></li>
+            <li><a href="#features">Portfolio</a></li>
+            
+            <li><a href="#" onclick="scrollToServices()">Services</a></li>
+            <li><a href="#pricing">Pricing/Packages</li></a>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+       
+        <a href="videos.html" class="nav-btn">RealTime_Media</a>
+        
+    </nav>
+</header>
+    <section id="hero">
+        <div class="hero-content">
+            <img src="logo.png" class="logo">
+            <p><span id="typed-text"></span><span id="cursor"></span></p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="fas fa-camera"></i>
+            <h2><u>PORTRAITS</u></h2>
+            <p>Capturing the essence of individuals and emotions through stunning portrait photography.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-camera-retro"></i>
+            <h2><u>FASHION</u></h2>
+            <p>Showcasing the latest trends and styles with our captivating fashion photography.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-camera"></i>
+            <h2><u>WEDDINGS</u></h2>
+            <p>Capturing the moments of your special day with beautiful wedding photography.</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Explore some of our best works in the gallery below.</p>
+    </section>
+
+
+       <section id="slider">
+        <div class="slider-container">
+            <span class="arrow left" onclick="prevSlide()">&#10094;</span>
+            <div class="slider">
+                <img src="images/pre_image1.jpg" alt="Sample 1">
+                <img src="images/pre_image2.jpg" alt="Sample 2">
+                <img src="images/pre_image3.jpg" alt="Sample 3">
+                <img src="images/pre_image4.jpg" alt="Sample 1">
+                <img src="images/pre_image5.jpg" alt="Sample 2">
+                <img src="images/pre_image6.jpg" alt="Sample 3">
+                <img src="images/pre_image7.jpg" alt="Sample 1">
+                <img src="images/pre_image8.jpg" alt="Sample 2">
+                <img src="images/pre_image9.jpg" alt="Sample 3">
+            </div>
+            <span class="arrow right" onclick="nextSlide()">&#10095;</span>
+        </div>
+    </section>
+
+    <section id="explore-more">
+        <div class="explore-more-container">
+            <a href="portfolio.html">Explore More</a>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2><span>Servi</span>ces</h2>
+        <div class="container">
+            <div class="feature">
+                <i class="fas fa-camera"></i>
+                <h3>PHOTOGRAPHY</h3>
+                <ul class="aligned-list">
+                    <li>WEDDINGS</li>
+                    <li>CORPORATE</li>
+                    <li>FASHION</li>
+                    <li>EVENTS</li>
+                    <li>COMMERCIAL</li>
+                    <li>BIRTHDAY</li>
+                </ul>
+            </div>
+            <div class="feature">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>GRAPHIC DESIGNING</h3>
+                <ul class="aligned-list">
+                    <li>LOGOS</li>
+                    <li>POSTERS</li>
+                    <li>FLYERS</li>
+                    <li>BUSINESS</li>
+                    <li>INVITATION CARDS</li>
+                    <li>CALENDARS</li>
+                    <li>BANNERS</li>
+                    <li>MOTION GRAPHICS</li>
+                    <li>MUSIC ARTWORKS</li>
+                </ul>
+            </div>
+            <div class="feature">
+                <i class="fas fa-video"></i>
+                <h3>MUSIC VIDEOS</h3>
+                <ul class="aligned-list">
+                    <li>WEDDINGS</li>
+                    <li>DOCUMENTARIES</li>
+                    <li>DRONE SERVICES</li>
+                    <li>COMMERCIAL ADS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+    <h1>Pricing Packages</h1>
+    
+    <div class="package">
+        <h2>Basic Package</h2>
+        <p class="price">$99</p>
+        <ul>
+            <li>10 Edited Photos</li>
+            <li>1 Hour Session</li>
+            <li>Online Gallery</li>
+            <li>Email Support</li>
+        </ul>
+        <a href="#" class="btn">Select Plan</a>
+    </div>
+    
+    <div class="package">
+        <h2>Standard Package</h2>
+        <p class="price">$199</p>
+        <ul>
+            <li>20 Edited Photos</li>
+            <li>2 Hour Session</li>
+            <li>Print Release</li>
+            <li>Email/Phone Support</li>
+        </ul>
+        <a href="#" class="btn">Select Plan</a>
+    </div>
+    
+    <div class="package">
+        <h2>Premium Package</h2>
+        <p class="price">$299</p>
+        <ul>
+            <li>30 Edited Photos</li>
+            <li>4 Hour Session</li>
+            <li>Custom Album</li>
+            <li>24/7 Support</li>
+        </ul>
+        <a href="#" class="btn">Select Plan</a>
+    </div>
+</section>
+
+<section>
+    <div class="container11">
+        <h1>Photography Services & Pricing</h1>
+
+        <div class="package2">
+            <div class="package-header">
+                <h2>Wedding Photography Packages</h2>
+            </div>
+            <div class="package-body">
+                <ul>
+                    <li><strong>Silver Package - $XXXX</strong><br>
+                        - Up to 4 hours of coverage<br>
+                        - 150+ high-resolution edited photos<br>
+                        - Online gallery for viewing and sharing</li>
+                    <li><strong>Gold Package - $XXXX</strong><br>
+                        - Up to 8 hours of coverage<br>
+                        - 300+ high-resolution edited photos<br>
+                        - Engagement photoshoot included<br>
+                        - Customized USB drive with all edited photos</li>
+                    <li><strong>Platinum Package - $XXXX</strong><br>
+                        - Full-day coverage<br>
+                        - 500+ high-resolution edited photos<br>
+                        - Second photographer<br>
+                        - Premium album with selected images</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="package2">
+            <div class="package-header">
+                <h2>Portrait Photography Packages</h2>
+            </div>
+            <div class="package-body">
+                <ul>
+                    <li><strong>Individual Portrait Session - $XXX</strong><br>
+                        - 1-hour photoshoot<br>
+                        - 10 high-resolution edited photos<br>
+                        - Online gallery for viewing and ordering prints</li>
+                    <li><strong>Family Portrait Session - $XXX</strong><br>
+                        - 1.5-hour photoshoot<br>
+                        - 20 high-resolution edited photos<br>
+                        - Online gallery for viewing and ordering prints</li>
+                </ul>
+            </div>
+        </div>
+
+        <p style="text-align: center;"><a href="#contact" class="contact-btn">Contact Us</a></p>
+    </div>
+</section>
+
+
+
+
+    <section id="about-me">
+        <div class="about-contect">
+            <h1 class="heading"><span>About</span> me</h1>
+            <div class="user">
+                <img src="img.jpg" alt="">
+                <h3 class="name">MwayieSnooker</h3>
+                <p class="post">Photographer</p>
+            </div>
+            <div class="about-content">
+                <div class="row">
+                    <div class="info">
+                        <h3><span> Name : </span> Mwayi Ng'oma</h3>
+                        <h3><span> Age : </span>24</h3>
+                        <h3><span> Post : </span>Photographer</h3>
+                        <h3><span> Language : </span>Chichewa & English</h3>
+                    </div>
+                    <div class="counter">
+                        <div class="box">
+                            <span>5+</span>
+                            <h3>years of experience</h3>
+                        </div>
+                        <div class="box">
+                            <span>600+</span>
+                            <h3>Captivating Photography</h3>
+                        </div>
+                        <div class="box">
+                            <span>2500+</span>
+                            <h3>Satisfied Clients</h3>
+                        </div>
+                        <div class="box">
+                            <span>4.9k+</span>
+                            <h3>Followers</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2><span>Contact</span> Us</h2>
+            <h1><u>MANAGING DIRECTOR</u></h1>
+            <p>For inquiries and booking requests, please feel free to contact.</p>
+            <div class="contact-details">
+                <div class="contact-info">
+                    <h3>Location</h3>
+                    <p>Blantyre, Malawi</p>
+                    <h3>Phone</h3>
+                    <p>+265 (0) 882 990 235<br>+265 (0) 994 681 722</p>
+                    <h3>Social Media</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100064727801180" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Mwayie_Snooker?s=09" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/art_by_mwayie_snooker/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="social-name">
+                        <p>Art by Mwayie Snooker</p>
+                       <p class="social-email">
+                       <i class="fas fa-envelope"></i>
+                       <span class="email-text">ngomamwayi18@gmail.com</span>
+                    </p>
+
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+
+
+<footer>
+        <p>&copy; 2024 <b>Art_By_Mwayie_Snooker</b>. All rights reserved. Designed by <b>AllanAloe</b></p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+    <script src="navigation-scroling.js"></script>
+    <script src="boxeffect.js"></script>
+
+
+
+<script src="navigation-scroling.js"></script>
+
+ <script>
+        
+        function scrollToServices() {
+    const servicesSection = document.getElementById("services");
+    const servicesText = document.querySelector("#services h2");
+
+    if (servicesSection && servicesText) {
+        // Calculate the scroll position by subtracting the height of the text
+        const scrollPosition = servicesSection.offsetTop - servicesText.offsetHeight;
+
+        // Scroll to the calculated position
+        window.scrollTo({
+            top: scrollPosition,
+            behavior: "smooth" // For smooth scrolling, you can remove this if not needed
+        });
+    }
+}
+
+</script>
+
+ <script>
+    function toggleNavbar() {
+        var navbar = document.querySelector('nav ul');
+        navbar.classList.toggle('show');
+    }
+</script>
+
+
+
+</body>
+</html>

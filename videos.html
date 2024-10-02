@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime_Media</title>
+    <link rel="stylesheet" href="videos.css">
+ 
+
+</head>
+<body>
+    <header>
+        <nav>
+    <div class="nav-container">
+        <a href="#" class="logo">VJ-ROPCZO</a>
+        <div class="burger-icon" onclick="toggleNav()">&#9776;</div> <!-- Burger Icon -->
+        <ul class="nav-links">
+            <li><a href="videos.html">Music Videos</a></li>
+            <li><a href="#videos">coming-soon</a></li>
+            <li><a href="#contact">coming-soon</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    </header>
+
+    <main>
+        <section class="welcome-section">
+            <h1>REALTIME-MEDIA</h1>
+            <p>Discover the best music videos curated just for you. Enjoy a seamless experience with the latest hits and timeless classics.</p>
+        </section>
+
+        <section id="videos" class="video-container">
+            <!-- Video items will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RealTime_Media. All rights reserved.</p>
+    </footer>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="video.js"></script>
+    <script>
+function toggleNav() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('nav-open'); // Toggle the 'nav-open' class
+}
+</script>
+</body>
+</html>
